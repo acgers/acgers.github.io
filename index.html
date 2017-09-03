@@ -12,7 +12,7 @@
     }
 
     @media screen and (min-width: 1040px) {
-      .main-page-header {
+      .main-header {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         min-height: 240px;
@@ -20,7 +20,11 @@
       }
     }
 
-    .main-page-header {
+    a {
+      text-decoration: none;
+    }
+
+    .main-header {
       display: table;
       width: 100%;
       height: 100vh;
@@ -31,12 +35,49 @@
       overflow: hidden;
     }
 
-    .main-header-vertical {
+    .main-header-nav {
+      display: table-row;
+      height: 35vh;
+    }
+
+    .main-header-nav-sty {
+      float: right;
+      margin-top: 35px;
+      margin-right: 40px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.6);
+      border-color: rgba(255, 255, 255, 0.6);
+      cursor: pointer;
+      padding: 0 15px;
+      border-style: solid;
+      border-width: 1px;
+      opacity: 1;
+      line-height: 35px;
+      border-radius: 3px;
+      transition: all 0.5s ease;
+    }
+
+    .main-header-nav-sty:hover {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-header-player {
+      display: table-row;
+    }
+
+    .main-header-player-container {
+      display: table;
+      width: 100%;
+    }
+
+    .main-header-player-vertical {
       display: table-cell;
       vertical-align: middle;
     }
 
-    .main-header-content {
+    .main-header-player-content {
       width: 32rem;
       position: relative;
       margin: 0 auto;
@@ -61,10 +102,19 @@
 </head>
 
 <body>
-  <header class="main-page-header">
-    <div class="main-header-vertical">
-      <div class="main-header-content">
-        <div id="a-player" class="aplayer"></div>
+  <header class="main-header">
+    <div class="main-header-nav">
+      <a class="main-header-nav-sty" href="jp-styudy">
+        <span class="study">去学习</span>
+      </a>
+    </div>
+    <div class="main-header-player">
+      <div class="main-header-player-container">
+        <div class="main-header-player-vertical">
+          <div class="main-header-player-content">
+            <div id="a-player" class="aplayer"></div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
