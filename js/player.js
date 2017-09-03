@@ -2,7 +2,7 @@ var ap = new APlayer({
   element: document.getElementById('a-player'),
   narrow: false,
   autoplay: true,
-  showlrc: 1,
+  showlrc: 3,
   mutex: true,
   theme: '#ad7a86',
   mode: 'random',
