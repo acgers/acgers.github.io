@@ -15,11 +15,18 @@ var ap = new APlayer({
       lrc: '../assert/lrc/secret_base-小缘.lrc'
     },
     {
-      title: 'Shelter - Porter Robinson',
+      title: 'Shelter',
       author: 'Porter Robinson',
       url: 'http://ovp1kv2jp.bkt.clouddn.com/Shelter-Porter%20Robinson.mp3',
       pic: '../assert/img/shelter.jpg',
       lrc: '../assert/lrc/shelter-PorterRobinson.lrc'
+    },
+    {
+      title: 'さくら ~あなたに出会えてよかった~',
+      author: 'RSP',
+      url: 'http://ovp1kv2jp.bkt.clouddn.com/RSP%20-%20%E3%81%95%E3%81%8F%E3%82%89%EF%BD%9E%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%88%E3%81%A6%E3%82%88%E3%81%8B%E3%81%A3%E3%81%9F%EF%BD%9E.mp3',
+      pic: '../assert/img/clannad.jpg',
+      lrc: '../assert/lrc/さくら～あなたに出会えてよかっ.lrc'
     }
   ]
 });
