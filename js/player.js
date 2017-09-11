@@ -8,6 +8,13 @@ var ap = new APlayer({
   mode: 'random',
   music: [
     {
+      title: 'adrenaline!!',
+      author: 'TrySail',
+      url: 'http://acgers-1253700126.cossh.myqcloud.com/adrenaline%21%21%21%20-%20TrySail.mp3',
+      pic: '../assets/img/adrenaline.jpg',
+      lrc: '../assets/lrc/adrenaline.lrc'
+    },
+    {
       title: 'さくら ~あなたに出会えてよかった~',
       author: 'RSP',
       url: 'https://acgers-1253700126.cossh.myqcloud.com/RSP%20-%20%E3%81%95%E3%81%8F%E3%82%89%EF%BD%9E%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AB%E5%87%BA%E4%BC%9A%E3%81%88%E3%81%A6%E3%82%88%E3%81%8B%E3%81%A3%E3%81%9F%EF%BD%9E.mp3',
@@ -46,8 +53,43 @@ var ap = new APlayer({
       title: 'GIRAFFE BLUES ～Freyja Solo～',
       author: '鈴木みのり',
       url: 'https://acgers-1253700126.cossh.myqcloud.com/GIRAFFE%20BLUES%20~Freyja%20Solo~%20-%20%E9%88%B4%E6%9C%A8%E3%81%BF%E3%81%AE%E3%82%8A.mp3',
-      pic: '../assets/img/GIRAFFE BLUES_solo.jpg',
-      lrc: '../assets/lrc/GIRAFFE BLUES_solo.lrc'
+      pic: '../assets/img/GIRAFFE_BLUES_solo.jpg',
+      lrc: '../assets/lrc/GIRAFFE_BLUES_solo.lrc'
+    },
+    {
+      title: 'ebullient future (English)',
+      author: 'ELISA',
+      url: 'http://acgers-1253700126.cossh.myqcloud.com/ebullient_future_%28English%29.mp3',
+      pic: '../assets/img/ebullient_future.jpg',
+      lrc: '../assets/lrc/ebullient_future_(English).lrc'
+    },
+    {
+      title: 'ebullient future (Japanese)',
+      author: 'ELISA',
+      url: 'http://acgers-1253700126.cossh.myqcloud.com/ebullient_future_%28Japanese%29.mp3',
+      pic: '../assets/img/ebullient_future.jpg',
+      lrc: '../assets/lrc/ebullient_future_(Japanese).lrc'
+    },
+    {
+      title: 'eternal feather',
+      author: '中岛裕美子',
+      url: 'http://acgers-1253700126.cossh.myqcloud.com/eternal%20feather.mp3',
+      pic: '../assets/img/eternal_feather.jpg',
+      lrc: '../assets/lrc/eternal_feather.lrc'
+    },
+    {
+      title: 'euphoric field (English)',
+      author: 'ELISA',
+      url: 'http://acgers-1253700126.cossh.myqcloud.com/euphoric_field_%28English%29.mp3',
+      pic: '../assets/img/euphoric_field.jpg',
+      lrc: '../assets/lrc/euphoric_field_(English).lrc'
+    },
+    {
+      title: 'euphoric field (Japanese)',
+      author: 'ELISA',
+      url: 'http://acgers-1253700126.cossh.myqcloud.com/euphoric_field_%28Japanese%29.mp3',
+      pic: '../assets/img/euphoric_field.jpg',
+      lrc: '../assets/lrc/euphoric_field_(Japanese).lrc'
     },
     {
       title: '光るなら',
