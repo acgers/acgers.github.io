@@ -10,7 +10,7 @@ var ap = new APlayer({
     {
       title: 'adrenaline!!',
       author: 'TrySail',
-      url: 'http://acgers-1253700126.cossh.myqcloud.com/adrenaline%21%21%21%20-%20TrySail.mp3',
+      url: 'https://acgers-1253700126.cossh.myqcloud.com/adrenaline%21%21%21%20-%20TrySail.mp3',
       pic: '../assets/img/adrenaline.jpg',
       lrc: '../assets/lrc/adrenaline.lrc'
     },
@@ -59,35 +59,35 @@ var ap = new APlayer({
     {
       title: 'ebullient future (English)',
       author: 'ELISA',
-      url: 'http://acgers-1253700126.cossh.myqcloud.com/ebullient_future_%28English%29.mp3',
+      url: 'https://acgers-1253700126.cossh.myqcloud.com/ebullient_future_%28English%29.mp3',
       pic: '../assets/img/ebullient_future.jpg',
       lrc: '../assets/lrc/ebullient_future_(English).lrc'
     },
     {
       title: 'ebullient future (Japanese)',
       author: 'ELISA',
-      url: 'http://acgers-1253700126.cossh.myqcloud.com/ebullient_future_%28Japanese%29.mp3',
+      url: 'https://acgers-1253700126.cossh.myqcloud.com/ebullient_future_%28Japanese%29.mp3',
       pic: '../assets/img/ebullient_future.jpg',
       lrc: '../assets/lrc/ebullient_future_(Japanese).lrc'
     },
     {
       title: 'eternal feather',
       author: '中岛裕美子',
-      url: 'http://acgers-1253700126.cossh.myqcloud.com/eternal%20feather.mp3',
+      url: 'https://acgers-1253700126.cossh.myqcloud.com/eternal%20feather.mp3',
       pic: '../assets/img/eternal_feather.jpg',
       lrc: '../assets/lrc/eternal_feather.lrc'
     },
     {
       title: 'euphoric field (English)',
       author: 'ELISA',
-      url: 'http://acgers-1253700126.cossh.myqcloud.com/euphoric_field_%28English%29.mp3',
+      url: 'https://acgers-1253700126.cossh.myqcloud.com/euphoric_field_%28English%29.mp3',
       pic: '../assets/img/euphoric_field.jpg',
       lrc: '../assets/lrc/euphoric_field_(English).lrc'
     },
     {
       title: 'euphoric field (Japanese)',
       author: 'ELISA',
-      url: 'http://acgers-1253700126.cossh.myqcloud.com/euphoric_field_%28Japanese%29.mp3',
+      url: 'https://acgers-1253700126.cossh.myqcloud.com/euphoric_field_%28Japanese%29.mp3',
       pic: '../assets/img/euphoric_field.jpg',
       lrc: '../assets/lrc/euphoric_field_(Japanese).lrc'
     },
