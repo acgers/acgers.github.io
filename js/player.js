@@ -33,7 +33,7 @@ var ap = new APlayer({
       author: 'Porter Robinson',
       url: 'https://acgers-1253700126.cossh.myqcloud.com/Shelter-Porter%20Robinson.mp3',
       pic: '../assets/img/shelter.jpg',
-      lrc: '../assets/lrc/shelter-PorterRobinson.lrc'
+      lrc: '../assets/lrc/shelter_PorterRobinson.lrc'
     },
     {
       title: 'too late',
