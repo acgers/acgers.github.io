@@ -1,13 +1,13 @@
 'use strict';
 
 (() => {
-  const cacheVersion = '-sw-v1';
+  const cacheVersion = '-sw-v2';
   const dynamicVendorCacheName = 'dynamic-vendor' + cacheVersion;
   const staticVendorCacheName = 'static-vendor' + cacheVersion;
   const staticAssetsCacheName = 'app-assets' + cacheVersion;
   const jsCacheName = 'app-js' + cacheVersion;
   const cssCacheName = 'app-css' + cacheVersion;
-  // const contentCacheName = 'content' + cacheVersion;
+  const contentCacheName = 'content' + cacheVersion;
   const maxEntries = 50;
   const maxAgeSeconds = 3600 * 24 * 3;
 
@@ -58,24 +58,26 @@
     }
   });
 
-  // self.toolbox.router.get('/*',  (request, values, options) => {
-  //   if (!request.url.match(/(\/ghost\/|\/page\/)/) && request.headers.get('accept').includes('text/html')) {
-  //     return self.toolbox.fastest(request, values, options);
-  //   } else {
-  //     return self.toolbox.networkOnly(request, values, options);
-  //   }
-  // }, {
-  //     cache: {
-  //       name: contentCacheName,
-  //       maxEntries: maxEntries
-  //     }
-  //   });
+  self.toolbox.router.get('/*', (request, values, options) => {
+    // !request.url.match(/(\/ghost\/|\/page\/)/) &&
+    if (request.headers.get('accept').includes('text/html')) {
+      return self.toolbox.fastest(request, values, options);
+    } else {
+      return self.toolbox.networkOnly(request, values, options);
+    }
+  }, {
+      cache: {
+        name: contentCacheName,
+        maxEntries: maxEntries
+      }
+    }
+  );
 
-  self.addEventListener('install', function (event) {
+  self.addEventListener('install', event => {
     return event.waitUntil(self.skipWaiting());
   });
 
-  self.addEventListener('activate', function (event) {
+  self.addEventListener('activate', event => {
     return event.waitUntil(self.clients.claim());
   });
 })();
