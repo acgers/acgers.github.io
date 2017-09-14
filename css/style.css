@@ -33,26 +33,9 @@ a {
   height: 35vh;
 }
 
-.main-header-nav-sty {
+.main-header-nav-btn {
   float: right;
-  margin-top: 35px;
-  margin-right: 40px;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.6);
-  border-color: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
-  padding: 0 15px;
-  border-style: solid;
-  border-width: 1px;
-  opacity: 1;
-  line-height: 35px;
-  border-radius: 3px;
-  transition: all 0.5s ease;
-}
-
-.main-header-nav-git {
-  float: right;
-  margin-top: 35px;
+  margin-top: 30px;
   margin-right: 20px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.6);
@@ -67,13 +50,7 @@ a {
   transition: all 0.5s ease;
 }
 
-.main-header-nav-sty:hover {
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-color: rgba(0, 0, 0, 0.6);
-}
-
-.main-header-nav-git:hover {
+.main-header-nav-btn:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
   border-color: rgba(0, 0, 0, 0.6);
