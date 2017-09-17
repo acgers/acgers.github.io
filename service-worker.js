@@ -34,7 +34,7 @@
   });
 
   self.toolbox.router.get('/(.*)', self.toolbox.cacheFirst, {
-    origin: /(fonts\.gstatic\.com|www\.google-analytics\.com|acgers-1253700126\.cossh\.myqcloud\.com|unpkg\.com)/,
+    origin: /(fonts\.gstatic\.com|www\.google-analytics\.com|acgers\.github\.io|acgers-1253700126\.cossh\.myqcloud\.com|unpkg\.com)/,
     cache: {
       name: staticVendorCacheName,
       maxAgeSeconds: maxAgeSeconds,
