@@ -105,7 +105,7 @@ var ap = new APlayer({
       pic: '../assets/img/new_world_order.jpg'
     },
     {
-      title: 'ニューワールドオーダーV3',
+      title: 'ニュー・ワールド・オーダーV3',
       author: '高田雅史',
       url: 'https://acgers-1253700126.cossh.myqcloud.com/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%88%E3%82%99%E3%82%AA%E3%83%BC%E3%82%BF%E3%82%99%E3%83%BCV3.mp3',
       pic: '../assets/img/new_world_order_V3.jpg'
