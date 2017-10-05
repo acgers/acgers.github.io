@@ -113,7 +113,7 @@ var ap = new APlayer({
     {
       title: 'Always in my heart',
       author: '山田タマル',
-      url: '	http://acgers-1253700126.cossh.myqcloud.com/always_in_my_heart.mp3',
+      url: '	https://acgers-1253700126.cossh.myqcloud.com/always_in_my_heart.mp3',
       pic: '../assets/img/always_in_my_heart.jpg',
       lrc: '../assets/lrc/always_in_my_heart.lrc'
     }
