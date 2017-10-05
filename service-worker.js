@@ -1,7 +1,7 @@
 'use strict';
 
 (() => {
-  const cacheVersion = '-sw-v5';
+  const cacheVersion = '-sw-v6';
   const dynamicVendorCacheName = 'dynamic-vendor' + cacheVersion;
   const staticVendorCacheName = 'static-vendor' + cacheVersion;
   const staticAssetsCacheName = 'app-assets' + cacheVersion;
